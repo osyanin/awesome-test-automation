@@ -72,6 +72,7 @@ Also:
     * [mamba](http://nestorsalceda.github.io/mamba/) - The definitive testing tool for Python. Born under the banner of Behavior Driven Development.
     * [pyvows](http://heynemann.github.io/pyvows/) - Asynchronous behaviour driven development for Python.
     * [pytest-bdd](https://github.com/pytest-dev/pytest-bdd) - BDD library for the py.test runner
+    * [pytest-play](https://github.com/pytest-dev/pytest-play) - ATDD pytest plugin that let you automate actions, assertions and test metrics executing plain YAML files.
     * [robotframework](http://robotframework.org/) - A generic test automation framework for acceptance testing and acceptance test-driven development (ATDD)
         * [awesome-robotframework](https://github.com/fkromer/awesome-robotframework) - A curated list of awesome Robot Framework resources and libraries
     * [radish-bdd](https://github.com/radish-bdd/radish) - BDD testing tool with supplements
@@ -102,6 +103,7 @@ Also:
 * [hypothesis](https://github.com/DRMacIver/hypothesis) - Library for property based testing in Python, based on the Haskell library Quickcheck.
 * [factory_boy](https://github.com/FactoryBoy/factory_boy) - A fixtures replacement based on thoughtbot’s [factory_girl](https://github.com/thoughtbot/factory_girl).
 * [fauxfactory](https://github.com/omaciel/fauxfactory) - Random Data Generator
+* [mimesis](https://github.com/lk-geimfari/mimesis) - Mimesis is fast and extremely easy to use Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages
 
 ## Code analysis
 
@@ -121,9 +123,10 @@ Also:
     * [splinter](https://github.com/cobrateam/splinter) - A tool for test web applications with a simple for find elements, form actions, and others browser actions.
     * [mechanize](https://pypi.python.org/pypi/mechanize/) - Stateful programmatic web browsing in Python.
 - frameworks and wrappers
+    * [play_selenium](https://github.com/davidemoro/play_selenium) - [pytest-play](https://github.com/pytest-dev/pytest-play) plugin that let you drive a browser with Selenium using plain YAML files
     * [py.saunter](https://github.com/element-34/py.saunter) - An opinionated automation framework for use with the Selenium RC and WebDriver libraries.
     * [moz-web-qa](https://github.com/mozilla/pytest-mozwebqa) - A plugin for py.test that provides additional features needed for Mozilla's WebQA projects.
-    * [testutils sst](http://testutils.org/sst) - A web test framework that uses Python to generate functional browser-based tests.
+    * [testutils sst](https://pypi.org/project/sst/) - A web test framework that uses Python to generate functional browser-based tests.
     * [wtframework](https://github.com/wiredrive/wtframework) - Framework for configurable Web Tests in Python.
     * [holmium.core](https://github.com/alisaifee/holmium.core) - Page objects & Utilities for writing selenium test cases.
     * [robotframework-selenium2library](https://github.com/rtomac/robotframework-selenium2library) - Web testing library for Robot Framework.
@@ -137,13 +140,12 @@ Also:
     * [hitch](http://hitchtest.com/) - A high level integration testing framework for service based applications.
     * [Needle](http://needle.readthedocs.org/en/latest/) - Needle is a tool for testing visuals with Selenium and nose. It checks that CSS renders correctly by taking screenshots of portions of a website and comparing them against known good screenshots. It also provides tools for testing calculated CSS values and the position of HTML elements.
     * [PyPOM](https://github.com/mozilla/PyPOM) - PyPOM is a Python Page Object Model library for Selenium and Splinter tests.
+    * [pypom_form](https://github.com/davidemoro/pypom_form) - PyPOM based page object model for schema based forms.
     * [POM](https://github.com/schipiga/pom) - POM is Page-Object-Model microframework to develop web UI tests easy, quickly and with pleasure.
     * [websmith](https://github.com/omaciel/websmith) - A Domain Specific Language (DSL) for Web Testing.
     * [pages](https://github.com/Skyscanner/pages) -  lightweight page object and component Python library for UI tests.
-    * [widgetastic](https://github.com/nextQE/widgetastic.core) - RedHat UI widget components framework
-    * [navmazing](https://github.com/nextQE/navmazing) - PageObjects based navigation from RedHat
-    * [nightwatch](https://github.com/nextQE/nightwatch) - UI Automated Testing Framework using Python and Selenium. Influenced by nightwatch.js
-	* [seleniumbase](https://github.com/seleniumbase/SeleniumBase) - A simple Python framework for building test automation with Selenium WebDriver. It depends on pytest or noose modules to run. When used with noose a HTML report can be generated in the end of the test run.
+    * [seleniumbase](https://github.com/seleniumbase/SeleniumBase) - A simple Python framework for building test automation with Selenium WebDriver. It depends on pytest or noose modules to run. When used with noose a HTML report can be generated in the end of the test run.
+	* [Toolium](https://github.com/Telefonica/toolium) - Toolium is a Python wrapper tool of Selenium and Appium libraries to test web and mobile applications in a single project. It provides a way of choosing and configuring the driver through a configuration file, implements a Page Object pattern and includes a simple visual testing solution.
 - extensions
     * [webdriver_manager](https://github.com/SergeyPirogov/webdriver_manager) - The main idea is to simplify managemet of binary drivers for different browsers.
     * [pytest_splinter](https://github.com/pytest-dev/pytest-splinter) - pytest spinter and selenium integration for anyone interested in browser interaction in tests.
@@ -196,6 +198,7 @@ Also:
 * [Rester](https://github.com/chitamoor/rester) - Framework for testing (RESTful) HTTP APIs
 * [pyresttest](https://github.com/svanoort/pyresttest) - A REST testing and API microbenchmarking tool
 * [siesta](http://scastillo.github.com/siesta) - Python REST Client
+* [play_requests](https://github.com/davidemoro/play_requests) - [pytest-play](https://github.com/pytest-dev/pytest-play) plugin driving the famous python requests library for making HTTP calls using plain YAML files
 
 ## Virtual environments
 
@@ -220,6 +223,7 @@ Also:
 * [The Grinder](http://grinder.sourceforge.net/) - Load testing framework that makes it easy to run a distributed test using many load injector machines. This includes common cases such as HTTP web servers, SOAP and REST web services, and application servers (CORBA, RMI, JMS, EJBs), as well as custom protocols. Flexible Scripting Test scripts are written in the powerful Jython and Clojure languages.
 * [Tsung](http://tsung.erlang-projects.org/) - is an open-source multi-protocol distributed load testing tool. It can be used to stress HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP and Jabber/XMPP servers.
 * [taurus](http://gettaurus.org) - Automation-friendly framework for Continuous Testing
+* [molotov](https://github.com/loads/molotov) - Simple Python 3.5+ tool to write load tests.
 
 ## Security checking
 

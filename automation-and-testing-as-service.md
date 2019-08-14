@@ -24,7 +24,6 @@ Also:
 
 * [SauceLabs](https://saucelabs.com/) - Provides the world's largest automation cloud for testing web and native/hybrid mobile applications. Founded by the original creator of Selenium, Sauce Labs helps companies accelerate software development cycles, improve application quality and deploy with confidence across 450+ browser / OS platforms, including Windows, Linux, iOS, Android & Mac OS X.
 * [Browserstack](http://www.browserstack.com/) - Online tool which allows users to test their website from different browsers. The list of supported browsers includes Google Chrome, Internet Explorer, Opera and Safari. This even includes different browser versions as well including the beta versions as well. With Browserstack, you can test every aspect of your website like flash, CSS, Java and more.
-* [BackTrac](http://backtrac.io/) Help organizations to keep an eye on their websites to identify broken pages fast and effortless. Automatically create a screenshots of pages and be notified about visual changes happened.
 * [AppliTools](https://applitools.com/) Automating visual software testing
 * [CrossBrowserTesting](https://crossbrowsertesting.com/) Another one cloud platform for automated testing of web applications. Provides a wide range of browsers, systems and more.
 * [TestAnywhere](https://testanywhere.co/) - Test Anywhere is a cloud service that helps test your website or web application continuously and catch bugs in the early stages
@@ -41,7 +40,6 @@ Also:
 
 ## Performance and load testing
 * [Loader.io](https://loader.io/) - A FREE load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections.
-* [Blitz](https://www.blitz.io/) - Performance testing on websites, web apps and REST APIs.
 * [BlazeMeter](http://blazemeter.com/) - A self- service performance & load testing cloud, 100% JMeter-compatible. Easily run tests of 30k, 50k, 80k or more concurrent users, on-demand!
 * [Loadsophia](https://loadosophia.org/) - is the service for storing and analysing performance test results. It supports analyzing output from Apache JMeter, Apache Benchmark and Yandex.Tank performance testing tools.
 * [Load Impact](https://loadimpact.com/) - Nothing to install, easy config: instant and free load testing SaaS for developers and devops.
